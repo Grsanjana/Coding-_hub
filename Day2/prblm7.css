@@ -1,0 +1,10 @@
+p{
+    color: red;
+    background-color: bisque;
+    text-align: center;
+   text-transform: capitalize;
+   text-indent:1cm;
+   letter-spacing: 0.5px;
+   word-spacing: 1.5px;
+   text-shadow:cadetblue;
+}
