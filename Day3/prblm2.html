@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3x3 Image Grid</title>
+    <style>
+        .grid-container {
+            /* to display in grid format we use the below style */
+            display: grid; 
+            grid-template-columns:repeat(3, 1fr); /* 3 equal columns */
+            gap: 10px; /* Space between the images */
+            width: 90%; /* Adjust the width as needed */
+            margin: 0 auto; /* Center the grid on the page */
+        }
+        .grid-container img {
+            width: 100%;
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 5px; /* Optional: Add rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <img src="imageday3.jpg" alt="Image 1">
+        <img src="imageday3.jpg" alt="Image 2">
+        <img src="imageday3.jpg" alt="Image 3">
+        <img src="imageday3.jpg" alt="Image 4">
+        <img src="imageday3.jpg" alt="Image 5">
+        <img src="imageday3.jpg" alt="Image 6">
+        <img src="imageday3.jpg" alt="Image 7">
+        <img src="imageday3.jpg" alt="Image 8">
+        <img src="imageday3.jpg" alt="Image 9">
+    </div>
+</body>
+</html>
